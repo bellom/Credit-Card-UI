@@ -1,0 +1,49 @@
+/* General  */
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #e7e7e7;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+/* Credit-Card */
+.credit-card{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 400px;
+  margin: 60px auto 0;
+  width: 360px;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,.10);
+}
+
+/* Form-header */
+.form-header{
+  border-bottom: 1px solid #e1e8ee;
+  height: 60px;
+  padding: 20px 30px 0;
+}
+
+/* Form-body */
+.form-body{
+  height: 340px;
+  padding: 30px 30px 20px;
+}
+
+
+
+
+
+
+
+
