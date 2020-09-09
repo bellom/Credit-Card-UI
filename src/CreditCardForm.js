@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+function CreditCardForm() {
   return (
     <div className="App">
       
@@ -9,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default CreditCardForm;
