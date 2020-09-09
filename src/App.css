@@ -1,5 +1,4 @@
 /* General  */
-
 * {
   box-sizing: border-box;
 }
@@ -15,16 +14,15 @@ body {
   margin: 0;
 }
 
-
 /* Credit-Card */
 .credit-card{
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,.10);
   height: 400px;
   margin: 60px auto 0;
   width: 360px;
-  box-shadow: 1px 2px 3px 0px rgba(0,0,0,.10);
 }
 
 /* Form-header */
@@ -40,10 +38,112 @@ body {
   padding: 30px 30px 20px;
 }
 
+/* Title */
+.title{
+  color: #5e6977;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* group-styling */
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 14px;
+}
+
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+  color: #86939e;
+  opacity: .7;
+}
+
+/* Card-Number */
+.card-number {
+  border: 2px solid #e1e8ee;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
 
 
+/* Date-Field */
+.month select,
+.year select {
+  background-position: 85% 50%;
+  border: 2px solid #e1e8ee;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  height: 40px;;
+  width: 145px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
 
+.month select {
+  float: left;
+}
 
+.year select {
+  float: right;
+}
 
+/* Card Verification Field */
+.cvv-input input, input {
+  border: 2px solid #e1e8ee;
+  border-radius: 6px;
+  background: #fff;
+  float: left;
+  height: 40px;
+  padding-left: 20px;
+  width: 145px;
+}
 
+.cvv-details {
+  float: right;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
 
+.cvv-details p {
+  margin-top: 6px;
+}
+
+/* Buttons Section */
+.mCard-btn,
+.proceed-btn {
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+}
+ 
+.proceed-btn {
+  background: #7dc855;
+  margin-bottom: 10px;
+}
+ 
+.mCard-btn a,
+.proceed-btn a {
+  text-decoration: none;
+}
+ 
+.proceed-btn a {
+  color: #fff;
+}
+ 
+.mCard-btn {
+  background: url('mCard.svg') no-repeat 65% 56% #009cde;
+}

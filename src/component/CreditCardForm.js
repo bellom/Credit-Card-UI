@@ -6,15 +6,15 @@ function CreditCardForm() {
       <form className="credit-card">
 
         <div className="form-header">
-          <h4 class="title">Credit card detail</h4>
+          <h4 className="title">Credit card detail</h4>
         </div>
 
         <div className="form-body">
 
           <input type="text" className="card-number" placeholder="Card Number"/>
 
-          <div class="date-field">
-            <div class="month">
+          <div className="date-field">
+            <div className="month">
               <select name="Month">
                 <option value="january">January</option>
                 <option value="february">February</option>
@@ -30,7 +30,7 @@ function CreditCardForm() {
                 <option value="december">December</option>
               </select>
             </div>
-            <div class="year">
+            <div className="year">
               <select name="Year">
                 <option value="2016">2018</option>
                 <option value="2017">2019</option>
@@ -55,7 +55,7 @@ function CreditCardForm() {
           </div>
 
           <button type="submit" className="proceed-btn"><a href="/">Proceed</a></button>
-          <button type="submit" className="mCard-btn"><a href="/">Pay With</a></button>
+          <button type="submit" className="mCard-btn"><a href="/">Pay With MasterCard</a></button>
 
         </div>
 
