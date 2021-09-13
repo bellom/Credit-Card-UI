@@ -1,6 +1,7 @@
 # Credit Card UI
 A Credit Card UI that can be easily integrated in any eCommerce SPA.
 
+<img width="991" alt="credit-card-ui" src="https://user-images.githubusercontent.com/31897434/92611990-48a30d80-f2b1-11ea-9018-89f8e27e7386.png">
 
 ## Live
 upcoming!
